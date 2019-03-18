@@ -1,4 +1,4 @@
-package com.zhaoyin.hjx;
+package com.tunnel.plugin;
 
 import android.app.Activity;
 import android.app.ActivityManager;

@@ -12,7 +12,7 @@ import org.apache.cordova.CordovaPlugin;
  * Created by mac005 on 2018/6/5.
  */
 
-public class ChannelPlugin  extends CordovaPlugin{
+public class JPushTunnelPlugin  extends CordovaPlugin{
 
     private CallbackContext mCallbackContext;
     @Override
