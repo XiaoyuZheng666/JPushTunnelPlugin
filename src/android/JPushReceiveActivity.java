@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 
+import com.zhaoyin.hjx.MainActivity;
+import com.zhaoyin.hjx.R;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
