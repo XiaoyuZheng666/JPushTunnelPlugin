@@ -9,14 +9,8 @@ import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 
-import com.zhaoyin.hjx.MainActivity;
-import com.zhaoyin.hjx.R;
-
-import com.zhaoyin.testhjx.MainActivity;
-import com.zhaoyin.testhjx.R;
-
-import com.zhaoyin.devhjx.MainActivity;
-import com.zhaoyin.devhjx.R;
+import __PACKAGE_NAME__.MainActivity;
+import __PACKAGE_NAME__.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-jb-jpushtunnel",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Cordova jpush tunnel Plugin",
   "types": "./types/index.d.ts",
   "cordova": {

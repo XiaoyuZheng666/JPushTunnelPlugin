@@ -1,11 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-jb-jpushtunnel" version="1.0.7" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-jb-jpushtunnel" version="1.0.9" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>JPushTunnelPlugin</name>
+
+    <preference name="BUILDENVIRONMENT" />
+
     <js-module name="JPushTunnelPlugin" src="www/JPushTunnelPlugin.js">
         <clobbers target="cordova.plugins.JPushTunnelPlugin" />
     </js-module>
 
-     <platform name="android">    
+     <platform name="android">
+        <hook type="after_plugin_add" src="scripts/android-install.js" />
+        <hook type="after_plugin_install" src="scripts/android-install.js" />
+        <hook type="before_plugin_rm" src="scripts/android-install.js" />
+        <hook type="before_plugin_uninstall" src="scripts/android-install.js" />    
         <source-file src="src/android/JPushTunnelPlugin.java" target-dir="src/com/tunnel/plugin"/>    
         <config-file target="res/xml/config.xml" parent="/*">    
             <feature name="JPushTunnelPlugin">    
