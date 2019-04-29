@@ -4,4 +4,4 @@
 
 # Install
 
-1. cordova plugin add cordova-plugin-jb-jpushtunnel  --variable buildenvironment=prod|test|dev
+1. cordova plugin add cordova-plugin-jb-jpushtunnel  --variable tunnelbuildenvironment=prod|test|dev
